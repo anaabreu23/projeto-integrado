@@ -1,0 +1,21 @@
+ENTREGA INDIVIDUAL - Ana Clara - Parte D
+Projeto Integrador "Numeros que Falam" - Indicador 1: Afazeres Domesticos - Turma 3B2
+
+CONTEUDO
+1. Codigo Python do modulo (ETL e estatisticas)
+   - secoes/parte_d.py ....... secao do dashboard (graficos, KPIs, estatisticas, resposta a persona)
+   - etl.py ................... leitura e limpeza da tabela do SIDRA/IBGE
+   - estatisticas.py .......... media, mediana, moda, quartis, IQR, amplitude, variancia, desvio padrao, outliers
+   - comum.py ................. upload, filtros, boxplot, noticias (compartilhado pelo grupo)
+   - app_parte_d.py ........... roda somente esta secao
+2. Base IBGE tratada
+   - dados_tratados/tabela_7013_ocupacao_tratada.xlsx (e a versao .csv)
+   - dados_brutos/ ............ arquivo original baixado do SIDRA
+3. Analise descritiva
+   - ANALISE_DESCRITIVA_Ana_Clara_Parte_D.docx  <- RASCUNHO: revisar e reescrever com suas palavras
+
+COMO RODAR
+   pip install -r requirements.txt
+   streamlit run app_parte_d.py
+
+Fonte: IBGE - PNAD Continua Anual, 5a visita (SIDRA).
